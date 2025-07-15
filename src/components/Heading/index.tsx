@@ -1,14 +1,14 @@
-import "./styles.module.css";
+import styles from "./styles.module.css";
 
-type HeadingProps = {
-  children: React.ReactNode;
-};
-
-export function Heading({ children }: HeadingProps) {
+export function Heading() {
   return (
     <>
-      <h1>{children}</h1>
-      <a href="">{children}</a>
+      <img
+        className={styles.head}
+        src="/background-desktop.svg"
+        alt="Background do fundo"
+      />
+      <h1>FAQs</h1>
     </>
   );
 }

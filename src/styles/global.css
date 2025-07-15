@@ -12,3 +12,7 @@ h1 {
   font-weight: bold;
   font-size: 3.5rem;
 }
+
+a {
+  text-decoration: none;
+}

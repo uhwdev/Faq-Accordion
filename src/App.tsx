@@ -7,10 +7,7 @@ export function App() {
   return (
     <>
       <Container>
-        <Heading>
-          <h1 className="title">FAQs</h1>
-          <img src="" alt="" />
-        </Heading>
+        <Heading></Heading>
       </Container>
     </>
   );
